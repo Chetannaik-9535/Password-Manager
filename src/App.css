@@ -1,0 +1,261 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana;
+}
+
+body {
+  margin: 0px;
+}
+
+.App-main-Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #9ba9eb;
+  background-size: cover;
+  height: 100%;
+}
+
+.app-logo {
+  display: flex;
+  justify-content: flex-start;
+  width: 320px;
+  height: 150px;
+  margin: 20px;
+}
+
+.PasswordManager-card-container {
+  display: flex;
+  flex-direction: row;
+  width: 90vw;
+  height: 100%;
+  margin: 20px;
+  background-color: #5763a5;
+  background-size: cover;
+}
+
+.UserInput-card-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: #454f84;
+  background-size: cover;
+  height: 100%;
+  width: 40vw;
+  border-radius: 14px;
+  margin: 40px;
+}
+
+.title {
+  font-family: 'Roboto';
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: bold;
+  font-style: italic;
+  margin: 20px;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.input-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #ffffff;
+  background-size: cover;
+  height: 60px;
+  width: 420px;
+  border-radius: 10px;
+  border: none;
+  margin: 20px;
+}
+
+.image {
+  height: 40px;
+  width: 40px;
+  margin: 10px;
+}
+
+.Input {
+  height: 60px;
+  width: 400px;
+  border-right: none;
+  border-top: none;
+  border-bottom: none;
+  border-radius: 10px;
+}
+
+::placeholder {
+  font-family: 'Roboto';
+  font-size: 17px;
+  color: #000000;
+  font-weight: bold;
+  font-style: italic;
+  margin: 10px;
+  padding: 10px;
+}
+
+.Input {
+  font-family: 'Roboto';
+  font-size: 17px;
+  color: #000000;
+  font-weight: bold;
+  font-style: italic;
+  margin: 10px;
+  padding: 10px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px;
+  margin-left: 10%;
+}
+
+.button {
+  text-align: center;
+  height: 60px;
+  width: 120px;
+  border-radius: 10px;
+  background-color: #0b69ff;
+  background-size: cover;
+  border: none;
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.container-image {
+  width: 400px;
+  height: 400px;
+  margin: 20px;
+}
+
+.top-title {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: bold;
+  font-style: italic;
+  margin: 25px;
+}
+
+.navbar-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 15px;
+}
+
+.navbar-search-input {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  background-size: cover;
+  height: 60px;
+  width: 420px;
+  border-radius: 10px;
+  border: none;
+  margin: 20px;
+}
+
+.PasswordManagerListItem-card-container {
+  display: flex;
+  flex-direction: column;
+  width: 90vw;
+  height: 100%;
+  margin: 20px;
+  background-color: #5763a5;
+  background-size: cover;
+}
+
+.horizontal-line {
+  border: 2px solid #ffffff;
+  width: 85vw;
+}
+
+.checkbox-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.description {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: bold;
+  margin-right: 40px;
+  margin: 20px;
+}
+
+.checkbox {
+  width: 30px;
+  height: 30px;
+  border-color: #0b69ff;
+}
+
+.Nopasswordmanager-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.password-List-container {
+  display: flex;
+  margin: 20px;
+  padding: 15px;
+  border: 2px solid #94a3b8;
+  height: 200px;
+  width: 400px;
+  border-radius: 10px;
+}
+.user-first-letter {
+  font-family: 'Roboto';
+  font-size: 25px;
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+  background-color: green;
+  background-size: cover;
+  height: 80px;
+  width: 80px;
+  border: none;
+  border-radius: 100px;
+  padding-top: 25px;
+}
+
+.input-List-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  margin: 15px;
+}
+
+.password-List-container {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  margin: 20px;
+  margin-left: 30px;
+}
